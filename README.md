@@ -1,4 +1,4 @@
-# Code of Enabling Abductive Learning to Exploit Knowledge Graph
+# Enabling Abductive Learning to Exploit Knowledge Graph
 
 This is the sample code of the experiments in [Enabling Abductive Learning to Exploit Knowledge Graph](https://www.ijcai.org/proceedings/2023/0427.pdf) in IJCAI 2023.
 
