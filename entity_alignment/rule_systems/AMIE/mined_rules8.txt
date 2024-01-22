@@ -1,0 +1,25 @@
+Assuming 9 as type relation
+Loading files... 
+  Starting sel_tri8.txt
+  Finished sel_tri8.txt, still running: 0
+Loaded 472667 facts in 4.01 s using 516 MB
+Using HeadCoverage as pruning metric with minimum threshold 0.001
+Using recursivity limit 3
+Default mining assistant that defines support by counting support on both head variables
+No minimum threshold on standard confidence
+Filtering on PCA confidence with minimum threshold 0.01
+Constants in the arguments of relations are disabled
+Lossless (query refinement) heuristics enabled
+MRT calls: 0
+Starting the mining phase... Using 1 threads
+Rule	Head Coverage	Std Confidence	PCA Confidence	Positive Examples	Body size	PCA Body size	Functional variable
+?b  P131  ?h  ?n  equalTo  ?h  ?a  http://schema.org/location  ?n   => ?a  equalTo  ?b	0.029444111	0.014181963	0.014181963	8139	573898	573898	-1
+?b  P155  ?h  ?h  P156  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001512181	0.992874109	0.992874109	418	421	421	-1
+?h  P155  ?n  ?b  P156  ?h  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001508563	1	1	417	417	417	-1
+?h  P155  ?n  ?n  P156  ?b  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.001512181	0.992874109	0.992874109	418	421	421	-1
+?n  P155  ?b  ?h  P156  ?n  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.001508563	1	1	417	417	417	-1
+?g  P131  ?b  ?m  equalTo  ?g  ?m  http://schema.org/location  ?a   => ?a  equalTo  ?b	0.007723698	0.861929754	0.862277868	2135	2477	2476	-1
+?b  P155  ?h  ?n  P155  ?h  ?h  P156  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001512181	0.995238095	0.995238095	418	420	420	-1
+Mining done in 1 h, 19 min
+Total time 1 h, 19 min
+7 rules mined.

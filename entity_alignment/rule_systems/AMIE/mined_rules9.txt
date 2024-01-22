@@ -1,0 +1,82 @@
+Assuming 9 as type relation
+Loading files... 
+  Starting de_ja_tri2.txt
+  Finished de_ja_tri2.txt, still running: 0
+Loaded 686700 facts in 8.15 s using 298 MB
+Using HeadCoverage as pruning metric with minimum threshold 0.001
+Using recursivity limit 3
+Default mining assistant that defines support by counting support on both head variables
+No minimum threshold on standard confidence
+Filtering on PCA confidence with minimum threshold 0.01
+Constants in the arguments of relations are disabled
+Lossless (query refinement) heuristics enabled
+MRT calls: 0
+Starting the mining phase... Using 1 threads
+Rule	Head Coverage	Std Confidence	PCA Confidence	Positive Examples	Body size	PCA Body size	Functional variable
+?a  equalTo  ?n  ?b  http://dbpedia.org/ontology/associatedBand  ?h  ?h  http://dbpedia.org/ontology/bandMember  ?n   => ?a  equalTo  ?b	0.001698158	0.121033049	0.121033049	553	4569	4569	-1
+?m  equalTo  ?h  ?b  http://dbpedia.org/ontology/associatedBand  ?h  ?m  http://dbpedia.org/ontology/bandMember  ?a   => ?a  equalTo  ?b	0.001369581	0.043054349	0.05305734	446	10359	8406	-1
+?m  equalTo  ?h  ?b  http://dbpedia.org/ontology/previousWork  ?h  ?m  http://dbpedia.org/ontology/subsequentWork  ?a   => ?a  equalTo  ?b	0.002619401	0.699180328	0.829766537	853	1220	1028	-1
+?a  equalTo  ?n  ?h  http://dbpedia.org/ontology/associatedBand  ?n  ?b  http://dbpedia.org/ontology/bandMember  ?h   => ?a  equalTo  ?b	0.001354227	0.243243243	0.243243243	441	1813	1813	-1
+?a  equalTo  ?h  ?h  http://dbpedia.org/ontology/associatedBand  ?n  ?n  http://dbpedia.org/ontology/bandMember  ?b   => ?a  equalTo  ?b	0.001698158	0.108452638	0.108452638	553	5099	5099	-1
+?a  equalTo  ?h  ?n  http://dbpedia.org/ontology/associatedBand  ?b  ?h  http://dbpedia.org/ontology/bandMember  ?n   => ?a  equalTo  ?b	0.001354227	0.226502311	0.226502311	441	1947	1947	-1
+?n  equalTo  ?b  ?h  http://dbpedia.org/ontology/previousWork  ?n  ?a  http://dbpedia.org/ontology/subsequentWork  ?h   => ?a  equalTo  ?b	0.003703397	0.864516129	0.935608999	1206	1395	1289	-1
+?h  equalTo  ?n  ?n  http://dbpedia.org/ontology/previousWork  ?b  ?a  http://dbpedia.org/ontology/subsequentWork  ?h   => ?a  equalTo  ?b	0.002622472	0.490241102	0.568575233	854	1742	1502	-1
+?n  equalTo  ?b  ?a  http://dbpedia.org/ontology/previousWork  ?h  ?h  http://dbpedia.org/ontology/subsequentWork  ?n   => ?a  equalTo  ?b	0.003509936	0.848552339	0.931540342	1143	1347	1227	-1
+?g  equalTo  ?b  ?n  http://dbpedia.org/ontology/previousWork  ?a  ?g  http://dbpedia.org/ontology/subsequentWork  ?n   => ?a  equalTo  ?b	0.003703397	0.884164223	0.935608999	1206	1364	1289	-1
+?g  equalTo  ?b  ?g  http://dbpedia.org/ontology/previousWork  ?n  ?n  http://dbpedia.org/ontology/subsequentWork  ?a   => ?a  equalTo  ?b	0.003509936	0.881944444	0.931540342	1143	1296	1227	-1
+?a  equalTo  ?n  ?b  http://dbpedia.org/ontology/artist  ?h  ?t  http://dbpedia.org/ontology/artist  ?h  ?n  http://dbpedia.org/ontology/previousWork  ?t   => ?a  equalTo  ?b	0.004345196	0.027425138	0.027425138	1415	51595	51595	-1
+?a  equalTo  ?n  ?n  http://dbpedia.org/ontology/album  ?t  ?b  http://dbpedia.org/ontology/artist  ?h  ?t  http://dbpedia.org/ontology/artist  ?h   => ?a  equalTo  ?b	0.001013367	0.017837838	0.017837838	330	18500	18500	-1
+?t  equalTo  ?h  ?b  http://dbpedia.org/ontology/artist  ?h  ?n  http://dbpedia.org/ontology/artist  ?t  ?a  http://dbpedia.org/ontology/subsequentWork  ?n   => ?a  equalTo  ?b	0.003248917	0.021411803	0.028658883	1058	49412	36917	-1
+?n  equalTo  ?t  ?b  http://dbpedia.org/ontology/artist  ?h  ?t  http://dbpedia.org/ontology/artist  ?h  ?a  http://dbpedia.org/ontology/subsequentWork  ?n   => ?a  equalTo  ?b	0.003055456	0.024341317	0.027716649	995	40877	35899	-1
+?t  equalTo  ?h  ?b  http://dbpedia.org/ontology/artist  ?h  ?n  http://dbpedia.org/ontology/artist  ?t  ?a  http://dbpedia.org/ontology/previousWork  ?n   => ?a  equalTo  ?b	0.003086164	0.020651392	0.028616988	1005	48665	35119	-1
+?n  equalTo  ?t  ?b  http://dbpedia.org/ontology/artist  ?h  ?t  http://dbpedia.org/ontology/artist  ?h  ?a  http://dbpedia.org/ontology/previousWork  ?n   => ?a  equalTo  ?b	0.003046243	0.023625235	0.027867517	992	41989	35597	-1
+?s  equalTo  ?m  ?b  http://dbpedia.org/ontology/artist  ?h  ?m  http://dbpedia.org/ontology/artist  ?h  ?s  http://dbpedia.org/ontology/previousWork  ?a   => ?a  equalTo  ?b	0.002984827	0.021474968	0.026630867	972	45262	36499	-1
+?s  equalTo  ?m  ?b  http://dbpedia.org/ontology/artist  ?h  ?m  http://dbpedia.org/ontology/artist  ?h  ?s  http://dbpedia.org/ontology/subsequentWork  ?a   => ?a  equalTo  ?b	0.003000181	0.020848004	0.026295957	977	46863	37154	-1
+?m  equalTo  ?h  ?b  http://dbpedia.org/ontology/artist  ?h  ?s  http://dbpedia.org/ontology/artist  ?m  ?s  http://dbpedia.org/ontology/previousWork  ?a   => ?a  equalTo  ?b	0.003187501	0.019441479	0.027644615	1038	53391	37548	-1
+?m  equalTo  ?h  ?b  http://dbpedia.org/ontology/artist  ?h  ?s  http://dbpedia.org/ontology/artist  ?m  ?s  http://dbpedia.org/ontology/subsequentWork  ?a   => ?a  equalTo  ?b	0.003052385	0.018341175	0.027036584	994	54195	36765	-1
+?a  equalTo  ?n  ?b  http://dbpedia.org/ontology/associatedBand  ?h  ?h  http://dbpedia.org/ontology/bandMember  ?b  ?h  http://dbpedia.org/ontology/bandMember  ?n   => ?a  equalTo  ?b	0.001698158	0.239601386	0.239601386	553	2308	2308	-1
+?a  equalTo  ?n  ?b  http://dbpedia.org/ontology/associatedBand  ?h  ?n  http://dbpedia.org/ontology/associatedBand  ?h  ?h  http://dbpedia.org/ontology/bandMember  ?n   => ?a  equalTo  ?b	0.001698158	0.182689131	0.182689131	553	3027	3027	-1
+?a  equalTo  ?n  ?b  http://dbpedia.org/ontology/associatedBand  ?h  ?n  http://dbpedia.org/ontology/associatedBand  ?h  ?h  http://dbpedia.org/ontology/bandMember  ?b   => ?a  equalTo  ?b	0.001698158	0.187775891	0.187775891	553	2945	2945	-1
+?m  equalTo  ?h  ?b  http://dbpedia.org/ontology/associatedBand  ?h  ?m  http://dbpedia.org/ontology/bandMember  ?a  ?h  http://dbpedia.org/ontology/bandMember  ?b   => ?a  equalTo  ?b	0.001169979	0.087545956	0.101708489	381	4352	3746	-1
+?a  equalTo  ?t  ?h  http://dbpedia.org/ontology/artist  ?n  ?t  http://dbpedia.org/ontology/artist  ?n  ?b  http://dbpedia.org/ontology/previousWork  ?h   => ?a  equalTo  ?b	0.004345196	0.029933786	0.029933786	1415	47271	47271	-1
+?t  equalTo  ?n  ?h  http://dbpedia.org/ontology/artist  ?n  ?a  http://dbpedia.org/ontology/artist  ?t  ?b  http://dbpedia.org/ontology/previousWork  ?h   => ?a  equalTo  ?b	0.003003252	0.029632772	0.037261401	978	33004	26247	-1
+?s  equalTo  ?h  ?a  http://dbpedia.org/ontology/artist  ?n  ?s  http://dbpedia.org/ontology/artist  ?n  ?b  http://dbpedia.org/ontology/previousWork  ?h   => ?a  equalTo  ?b	0.002585622	0.047375232	0.061491273	842	17773	13693	-1
+?n  equalTo  ?h  ?b  http://dbpedia.org/ontology/previousWork  ?h  ?a  http://dbpedia.org/ontology/previousWork  ?n  ?n  http://dbpedia.org/ontology/subsequentWork  ?a   => ?a  equalTo  ?b	0.002475073	0.82244898	0.877040261	806	980	919	-1
+?a  equalTo  ?n  ?h  http://dbpedia.org/ontology/associatedBand  ?b  ?h  http://dbpedia.org/ontology/associatedBand  ?n  ?b  http://dbpedia.org/ontology/bandMember  ?h   => ?a  equalTo  ?b	0.001354227	0.311881188	0.311881188	441	1414	1414	-1
+?a  equalTo  ?n  ?h  http://dbpedia.org/ontology/associatedBand  ?n  ?b  http://dbpedia.org/ontology/bandMember  ?h  ?n  http://dbpedia.org/ontology/bandMember  ?h   => ?a  equalTo  ?b	0.001354227	0.547146402	0.547146402	441	806	806	-1
+?a  equalTo  ?n  ?h  http://dbpedia.org/ontology/associatedBand  ?b  ?b  http://dbpedia.org/ontology/bandMember  ?h  ?n  http://dbpedia.org/ontology/bandMember  ?h   => ?a  equalTo  ?b	0.001354227	0.591946309	0.591946309	441	745	745	-1
+?a  equalTo  ?t  ?b  http://dbpedia.org/ontology/album  ?h  ?h  http://dbpedia.org/ontology/artist  ?n  ?t  http://dbpedia.org/ontology/artist  ?n   => ?a  equalTo  ?b	0.001013367	0.016075604	0.016075604	330	20528	20528	-1
+?a  equalTo  ?h  ?h  http://dbpedia.org/ontology/artist  ?n  ?s  http://dbpedia.org/ontology/artist  ?n  ?s  http://dbpedia.org/ontology/previousWork  ?b   => ?a  equalTo  ?b	0.004480312	0.02063766	0.02063766	1459	70696	70696	-1
+?a  equalTo  ?h  ?s  http://dbpedia.org/ontology/album  ?b  ?h  http://dbpedia.org/ontology/artist  ?n  ?s  http://dbpedia.org/ontology/artist  ?n   => ?a  equalTo  ?b	0.001093208	0.015332931	0.015332931	356	23218	23218	-1
+?a  equalTo  ?h  ?h  http://dbpedia.org/ontology/associatedBand  ?n  ?n  http://dbpedia.org/ontology/bandMember  ?b  ?n  http://dbpedia.org/ontology/bandMember  ?h   => ?a  equalTo  ?b	0.001698158	0.216015625	0.216015625	553	2560	2560	-1
+?a  equalTo  ?h  ?n  http://dbpedia.org/ontology/associatedBand  ?b  ?n  http://dbpedia.org/ontology/associatedBand  ?h  ?h  http://dbpedia.org/ontology/bandMember  ?n   => ?a  equalTo  ?b	0.001354227	0.259870359	0.259870359	441	1697	1697	-1
+?a  equalTo  ?h  ?m  http://dbpedia.org/ontology/artist  ?b  ?t  http://dbpedia.org/ontology/artist  ?h  ?m  http://dbpedia.org/ontology/previousWork  ?t   => ?a  equalTo  ?b	0.002668534	0.613267466	0.613267466	869	1417	1417	-1
+?a  equalTo  ?h  ?m  http://dbpedia.org/ontology/album  ?t  ?m  http://dbpedia.org/ontology/artist  ?b  ?t  http://dbpedia.org/ontology/artist  ?h   => ?a  equalTo  ?b	0.001388006	0.654124457	0.654124457	452	691	691	-1
+?a  equalTo  ?h  ?m  http://dbpedia.org/ontology/artist  ?b  ?s  http://dbpedia.org/ontology/artist  ?h  ?s  http://dbpedia.org/ontology/previousWork  ?m   => ?a  equalTo  ?b	0.002668534	0.6171875	0.6171875	869	1408	1408	-1
+?a  equalTo  ?h  ?s  http://dbpedia.org/ontology/album  ?m  ?m  http://dbpedia.org/ontology/artist  ?b  ?s  http://dbpedia.org/ontology/artist  ?h   => ?a  equalTo  ?b	0.001388006	0.660818713	0.660818713	452	684	684	-1
+?h  equalTo  ?n  ?a  http://dbpedia.org/ontology/artist  ?h  ?s  http://dbpedia.org/ontology/artist  ?n  ?s  http://dbpedia.org/ontology/previousWork  ?b   => ?a  equalTo  ?b	0.003144509	0.01963529	0.025608963	1024	52151	39986	-1
+?m  equalTo  ?b  ?a  http://dbpedia.org/ontology/artist  ?h  ?t  http://dbpedia.org/ontology/artist  ?h  ?m  http://dbpedia.org/ontology/subsequentWork  ?t   => ?a  equalTo  ?b	0.003433165	0.05497099	0.077963738	1118	20338	14340	-1
+?m  equalTo  ?b  ?a  http://dbpedia.org/ontology/artist  ?h  ?t  http://dbpedia.org/ontology/artist  ?h  ?m  http://dbpedia.org/ontology/previousWork  ?t   => ?a  equalTo  ?b	0.00322435	0.054126501	0.076799298	1050	19399	13672	-1
+?m  equalTo  ?b  ?a  http://dbpedia.org/ontology/artist  ?h  ?s  http://dbpedia.org/ontology/artist  ?h  ?s  http://dbpedia.org/ontology/previousWork  ?m   => ?a  equalTo  ?b	0.00333797	0.050811013	0.07393049	1087	21393	14703	-1
+?m  equalTo  ?b  ?a  http://dbpedia.org/ontology/artist  ?h  ?s  http://dbpedia.org/ontology/artist  ?h  ?s  http://dbpedia.org/ontology/subsequentWork  ?m   => ?a  equalTo  ?b	0.003172147	0.049174085	0.071870869	1033	21007	14373	-1
+?s  equalTo  ?m  ?a  http://dbpedia.org/ontology/artist  ?h  ?s  http://dbpedia.org/ontology/artist  ?h  ?m  http://dbpedia.org/ontology/previousWork  ?b   => ?a  equalTo  ?b	0.002542631	0.028855201	0.038851351	828	28695	21312	-1
+?n  equalTo  ?b  ?h  http://dbpedia.org/ontology/previousWork  ?a  ?h  http://dbpedia.org/ontology/previousWork  ?n  ?a  http://dbpedia.org/ontology/subsequentWork  ?h   => ?a  equalTo  ?b	0.003703397	0.924137931	0.965572458	1206	1305	1249	-1
+?n  equalTo  ?b  ?h  http://dbpedia.org/ontology/previousWork  ?n  ?a  http://dbpedia.org/ontology/subsequentWork  ?h  ?n  http://dbpedia.org/ontology/subsequentWork  ?h   => ?a  equalTo  ?b	0.003703397	0.943661972	0.972580645	1206	1278	1240	-1
+?s  equalTo  ?b  ?h  http://dbpedia.org/ontology/artist  ?n  ?s  http://dbpedia.org/ontology/artist  ?n  ?a  http://dbpedia.org/ontology/subsequentWork  ?h   => ?a  equalTo  ?b	0.003433165	0.058120191	0.077963738	1118	19236	14340	-1
+?h  equalTo  ?n  ?h  http://dbpedia.org/ontology/previousWork  ?a  ?n  http://dbpedia.org/ontology/previousWork  ?b  ?a  http://dbpedia.org/ontology/subsequentWork  ?h   => ?a  equalTo  ?b	0.002468931	0.519044545	0.58643326	804	1549	1371	-1
+?m  equalTo  ?b  ?h  http://dbpedia.org/ontology/previousWork  ?a  ?a  http://dbpedia.org/ontology/subsequentWork  ?h  ?m  http://dbpedia.org/ontology/subsequentWork  ?h   => ?a  equalTo  ?b	0.003703397	0.963258786	0.972580645	1206	1252	1240	-1
+?n  equalTo  ?b  ?a  http://dbpedia.org/ontology/previousWork  ?h  ?h  http://dbpedia.org/ontology/subsequentWork  ?a  ?h  http://dbpedia.org/ontology/subsequentWork  ?n   => ?a  equalTo  ?b	0.003509936	0.907142857	0.960504202	1143	1260	1190	-1
+?n  equalTo  ?b  ?a  http://dbpedia.org/ontology/previousWork  ?h  ?n  http://dbpedia.org/ontology/previousWork  ?h  ?h  http://dbpedia.org/ontology/subsequentWork  ?n   => ?a  equalTo  ?b	0.003509936	0.939967105	0.968644068	1143	1216	1180	-1
+?s  equalTo  ?b  ?h  http://dbpedia.org/ontology/artist  ?n  ?s  http://dbpedia.org/ontology/artist  ?n  ?a  http://dbpedia.org/ontology/previousWork  ?h   => ?a  equalTo  ?b	0.00322435	0.055034331	0.076799298	1050	19079	13672	-1
+?m  equalTo  ?b  ?a  http://dbpedia.org/ontology/previousWork  ?h  ?m  http://dbpedia.org/ontology/previousWork  ?h  ?h  http://dbpedia.org/ontology/subsequentWork  ?a   => ?a  equalTo  ?b	0.003509936	0.955685619	0.968644068	1143	1196	1180	-1
+?g  equalTo  ?b  ?g  http://dbpedia.org/ontology/artist  ?n  ?s  http://dbpedia.org/ontology/artist  ?n  ?s  http://dbpedia.org/ontology/previousWork  ?a   => ?a  equalTo  ?b	0.00333797	0.052385542	0.07393049	1087	20750	14703	-1
+?g  equalTo  ?b  ?g  http://dbpedia.org/ontology/artist  ?n  ?s  http://dbpedia.org/ontology/artist  ?n  ?s  http://dbpedia.org/ontology/subsequentWork  ?a   => ?a  equalTo  ?b	0.003172147	0.049141335	0.071870869	1033	21021	14373	-1
+?g  equalTo  ?b  ?n  http://dbpedia.org/ontology/previousWork  ?a  ?n  http://dbpedia.org/ontology/previousWork  ?g  ?g  http://dbpedia.org/ontology/subsequentWork  ?n   => ?a  equalTo  ?b	0.003703397	0.956383822	0.965572458	1206	1261	1249	-1
+?g  equalTo  ?b  ?g  http://dbpedia.org/ontology/previousWork  ?n  ?n  http://dbpedia.org/ontology/subsequentWork  ?a  ?n  http://dbpedia.org/ontology/subsequentWork  ?g   => ?a  equalTo  ?b	0.003509936	0.9525	0.960504202	1143	1200	1190	-1
+?g  equalTo  ?b  ?m  http://dbpedia.org/ontology/artist  ?a  ?t  http://dbpedia.org/ontology/artist  ?g  ?m  http://dbpedia.org/ontology/previousWork  ?t   => ?a  equalTo  ?b	0.00185784	0.846153846	0.880640466	605	715	687	-1
+?g  equalTo  ?b  ?m  http://dbpedia.org/ontology/artist  ?a  ?t  http://dbpedia.org/ontology/artist  ?g  ?m  http://dbpedia.org/ontology/subsequentWork  ?t   => ?a  equalTo  ?b	0.001882406	0.860955056	0.89619883	613	712	684	-1
+?g  equalTo  ?b  ?m  http://dbpedia.org/ontology/artist  ?a  ?s  http://dbpedia.org/ontology/artist  ?g  ?s  http://dbpedia.org/ontology/subsequentWork  ?m   => ?a  equalTo  ?b	0.001882406	0.863380282	0.89619883	613	710	684	-1
+?g  equalTo  ?b  ?m  http://dbpedia.org/ontology/artist  ?a  ?s  http://dbpedia.org/ontology/artist  ?g  ?s  http://dbpedia.org/ontology/previousWork  ?m   => ?a  equalTo  ?b	0.00185784	0.848527349	0.880640466	605	713	687	-1
+Mining done in 39 min, 52 s
+Total time 39 min, 60 s
+64 rules mined.

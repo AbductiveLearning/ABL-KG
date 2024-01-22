@@ -1,0 +1,8 @@
+['A', 'equalTo', 'B', 'X', 'http://dbpedia.org/ontology/successor', 'A', 'Y', 'http://dbpedia.org/ontology/followedBy', 'B']	=>	['X', 'equalTo', 'Y']	pca:	0.855941115
+['A', 'equalTo', 'B', 'A', 'http://dbpedia.org/ontology/child', 'X', 'B', 'http://dbpedia.org/ontology/child', 'Y']	=>	['X', 'equalTo', 'Y']	pca:	0.855941115
+['A', 'equalTo', 'B', 'X', 'http://dbpedia.org/ontology/capital', 'A', 'B', 'http://dbpedia.org/ontology/capital', 'Y']	=>	['X', 'equalTo', 'Y']	pca:	0.855941115
+['A', 'equalTo', 'B', 'X', 'http://dbpedia.org/ontology/child', 'A', 'Y', 'http://dbpedia.org/ontology/father', 'B']	=>	['X', 'equalTo', 'Y']	pca:	0.855941115
+['A', 'equalTo', 'B', 'A', 'http://dbpedia.org/ontology/previousEvent', 'X', 'Y', 'http://dbpedia.org/ontology/followedBy', 'B']	=>	['X', 'equalTo', 'Y']	pca:	0.855941115
+['A', 'equalTo', 'B', 'X', 'http://dbpedia.org/ontology/previousEvent', 'A', 'B', 'http://dbpedia.org/ontology/followedBy', 'Y']	=>	['X', 'equalTo', 'Y']	pca:	0.855941115
+['A', 'equalTo', 'B', 'A', 'http://dbpedia.org/ontology/previousEvent', 'X', 'B', 'http://dbpedia.org/ontology/follows', 'Y']	=>	['X', 'equalTo', 'Y']	pca:	0.855941115
+['A', 'equalTo', 'B', 'X', 'http://dbpedia.org/ontology/previousEvent', 'A', 'Y', 'http://dbpedia.org/ontology/follows', 'B']	=>	['X', 'equalTo', 'Y']	pca:	0.855941115

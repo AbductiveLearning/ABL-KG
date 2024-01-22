@@ -1,0 +1,40 @@
+Assuming 9 as type relation
+Loading files... 
+  Starting sel_tri6.txt
+  Finished sel_tri6.txt, still running: 0
+Loaded 553610 facts in 5.10 s using 398 MB
+Using HeadCoverage as pruning metric with minimum threshold 0.001
+Using recursivity limit 3
+Default mining assistant that defines support by counting support on both head variables
+No minimum threshold on standard confidence
+Filtering on PCA confidence with minimum threshold 0.01
+Constants in the arguments of relations are disabled
+Lossless (query refinement) heuristics enabled
+MRT calls: 0
+Starting the mining phase... Using 1 threads
+Rule	Head Coverage	Std Confidence	PCA Confidence	Positive Examples	Body size	PCA Body size	Functional variable
+?b  P131  ?h  ?n  equalTo  ?h  ?a  http://schema.org/location  ?n   => ?a  equalTo  ?b	0.026256667	0.013456814	0.013456814	7877	585354	585354	-1
+?b  P155  ?h  ?h  P156  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.004476667	0.989683125	0.989683125	1343	1357	1357	-1
+?h  P155  ?n  ?b  P156  ?h  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.004476667	0.988226637	0.988226637	1343	1359	1359	-1
+?h  P155  ?n  ?n  P156  ?b  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.004476667	0.989683125	0.989683125	1343	1357	1357	-1
+?n  P155  ?b  ?h  P156  ?n  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.004476667	0.988226637	0.988226637	1343	1359	1359	-1
+?g  equalTo  ?b  ?m  http://schema.org/birthPlace  ?a  ?m  http://schema.org/deathPlace  ?g   => ?a  equalTo  ?b	0.00165	0.246391239	0.248618785	495	2009	1991	-1
+?g  equalTo  ?b  ?m  http://schema.org/birthPlace  ?g  ?m  http://schema.org/deathPlace  ?a   => ?a  equalTo  ?b	0.00165	0.239246013	0.248618785	495	2069	1991	-1
+?g  P19  ?b  ?m  equalTo  ?g  ?m  http://schema.org/birthPlace  ?a   => ?a  equalTo  ?b	0.021226667	0.987899473	0.988052754	6368	6446	6445	-1
+?g  P19  ?b  ?m  equalTo  ?g  ?m  http://schema.org/deathPlace  ?a   => ?a  equalTo  ?b	0.00113	0.183839479	0.191201354	339	1844	1773	-1
+?g  P131  ?b  ?m  equalTo  ?g  ?m  http://schema.org/location  ?a   => ?a  equalTo  ?b	0.00696	0.863880844	0.864238411	2088	2417	2416	-1
+?g  P20  ?b  ?m  equalTo  ?g  ?m  http://schema.org/deathPlace  ?a   => ?a  equalTo  ?b	0.007696667	0.995258621	0.995687796	2309	2320	2319	-1
+?b  P155  ?h  ?h  P156  ?b  ?h  P156  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.004476667	0.991875923	0.991875923	1343	1354	1354	-1
+?b  P155  ?h  ?n  P155  ?h  ?h  P156  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.004476667	0.991143911	0.991143911	1343	1355	1355	-1
+?b  P155  ?h  ?n  P155  ?h  ?h  P156  ?b  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.004476667	0.991143911	0.991143911	1343	1355	1355	-1
+?h  P155  ?b  ?h  P155  ?n  ?b  P156  ?h  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.004476667	0.991143911	0.991143911	1343	1355	1355	-1
+?h  P155  ?n  ?n  P156  ?b  ?n  P156  ?h  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.004476667	0.991875923	0.991875923	1343	1354	1354	-1
+?n  P155  ?b  ?n  P155  ?h  ?h  P156  ?n  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.004476667	0.991143911	0.991143911	1343	1355	1355	-1
+?g  equalTo  ?b  ?m  http://schema.org/birthPlace  ?a  ?m  http://schema.org/deathPlace  ?a  ?m  http://schema.org/deathPlace  ?g   => ?a  equalTo  ?b	0.00165	1	1	495	495	495	-1
+?g  equalTo  ?b  ?m  http://schema.org/birthPlace  ?a  ?m  http://schema.org/birthPlace  ?g  ?m  http://schema.org/deathPlace  ?g   => ?a  equalTo  ?b	0.00165	1	1	495	495	495	-1
+?g  equalTo  ?b  ?m  http://schema.org/birthPlace  ?a  ?m  http://schema.org/birthPlace  ?g  ?m  http://schema.org/deathPlace  ?a   => ?a  equalTo  ?b	0.00165	1	1	495	495	495	-1
+?g  equalTo  ?b  ?m  http://schema.org/birthPlace  ?g  ?m  http://schema.org/deathPlace  ?a  ?m  http://schema.org/deathPlace  ?g   => ?a  equalTo  ?b	0.00165	1	1	495	495	495	-1
+?g  P19  ?b  ?m  equalTo  ?g  ?m  http://schema.org/birthPlace  ?a  ?m  http://schema.org/deathPlace  ?a   => ?a  equalTo  ?b	0.00112	0.985337243	0.988235294	336	341	340	-1
+Mining done in 1 h, 36 min
+Total time 1 h, 36 min
+22 rules mined.

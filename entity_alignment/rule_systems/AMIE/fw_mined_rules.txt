@@ -1,0 +1,137 @@
+Assuming 9 as type relation
+Loading files... 
+  Starting sel_fw.txt
+  Finished sel_fw.txt, still running: 0
+Loaded 882061 facts in 8.53 s using -181 MB
+Using HeadCoverage as pruning metric with minimum threshold 0.001
+Using recursivity limit 3
+Default mining assistant that defines support by counting support on both head variables
+No minimum threshold on standard confidence
+Filtering on PCA confidence with minimum threshold 0.01
+Constants in the arguments of relations are disabled
+Lossless (query refinement) heuristics enabled
+MRT calls: 0
+Starting the mining phase... Using 1 threads
+Rule	Head Coverage	Std Confidence	PCA Confidence	Positive Examples	Body size	PCA Body size	Functional variable
+?a  Place  ?h  ?h  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	0.98094449	0.98094449	4736	4828	4828	-2
+?a  Leader of  ?h  ?h  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.558971641	0.558971641	2109	3773	3773	-2
+?g  Place  ?a  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	0.98094449	0.98094449	4736	4828	4828	-2
+?g  Leader of  ?a  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.559416446	0.559416446	2109	3770	3770	-2
+?b  P131  ?h  ?h  P150  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.002592996	0.031936253	0.031936253	1018	31876	31876	-2
+?b  P155  ?h  ?h  P156  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.002791674	0.98649865	0.98649865	1096	1111	1111	-2
+?h  P155  ?n  ?b  P156  ?h  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.002789127	0.990950226	0.990950226	1095	1105	1105	-2
+?h  P22  ?n  ?b  P40  ?h  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001783003	0.949796472	0.949796472	700	737	737	-2
+?b  P22  ?h  ?h  P40  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001989322	0.774801587	0.774801587	781	1008	1008	-2
+?h  P131  ?n  ?n  P150  ?b  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.002590449	0.031928921	0.031928921	1017	31852	31852	-2
+?h  P155  ?n  ?n  P156  ?b  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.002791674	0.98649865	0.98649865	1096	1111	1111	-2
+?n  P155  ?b  ?h  P156  ?n  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.002789127	0.990950226	0.990950226	1095	1105	1105	-2
+?n  P22  ?b  ?h  P40  ?n  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.001783003	0.949796472	0.949796472	700	737	737	-2
+?h  P22  ?n  ?n  P40  ?b  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.001989322	0.774801587	0.774801587	781	1008	1008	-2
+?m  Producer  ?h  ?a  Recorded by  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.002208377	0.031131059	0.031131059	867	27850	27850	-2
+?a  Producer  ?h  ?m  Recorded by  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.002208377	0.031110952	0.031110952	867	27868	27868	-2
+?m  Producer  ?g  ?m  Recorded by  ?a  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.001087632	0.515700483	0.515700483	427	828	828	-2
+?m  Producer  ?a  ?m  Recorded by  ?g  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.001087632	0.515078408	0.515078408	427	829	829	-2
+?b  P131  ?h  ?h  P150  ?b  ?h  P150  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.002590449	0.061442726	0.061442726	1017	16552	16552	-2
+?b  P131  ?h  ?n  P131  ?h  ?h  P150  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.002592996	0.032608347	0.032608347	1018	31219	31219	-2
+?b  P131  ?h  ?n  P131  ?h  ?h  P150  ?b  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.002590449	0.032600333	0.032600333	1017	31196	31196	-2
+?b  P131  ?h  ?t  P131  ?h  ?n  P47  ?t  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001113104	0.023232323	0.023232323	437	18810	18810	-2
+?b  P131  ?h  ?s  P131  ?h  ?s  P47  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001115651	0.022304833	0.022304833	438	19637	19637	-2
+?h  P47  ?b  ?b  P47  ?h  ?h  P47  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.009167185	0.579735825	0.579735825	3599	6208	6208	-2
+?b  P47  ?h  ?n  P47  ?h  ?h  P47  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.009167185	0.58236246	0.58236246	3599	6180	6180	-2
+?b  P47  ?h  ?h  P47  ?n  ?n  P47  ?t  ?a  equalTo  ?t   => ?a  equalTo  ?b	0.001016312	0.064479638	0.064479638	399	6188	6188	-2
+?b  P47  ?h  ?h  P47  ?n  ?t  P47  ?n  ?a  equalTo  ?t   => ?a  equalTo  ?b	0.001013765	0.064453441	0.064453441	398	6175	6175	-2
+?h  P131  ?n  ?t  P131  ?n  ?b  P47  ?h  ?a  equalTo  ?t   => ?a  equalTo  ?b	0.001113104	0.023243444	0.023243444	437	18801	18801	-2
+?b  P47  ?h  ?s  P47  ?h  ?s  P47  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001021406	0.062422167	0.062422167	401	6424	6424	-2
+?b  P47  ?h  ?m  P47  ?h  ?s  P47  ?m  ?a  equalTo  ?s   => ?a  equalTo  ?b	0.001013765	0.064453441	0.064453441	398	6175	6175	-2
+?b  P155  ?h  ?h  P156  ?b  ?h  P156  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.002791674	0.989169675	0.989169675	1096	1108	1108	-2
+?h  P155  ?b  ?h  P155  ?n  ?b  P156  ?h  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.002789127	0.991847826	0.991847826	1095	1104	1104	-2
+?h  P155  ?n  ?b  P156  ?h  ?n  P156  ?h  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.002789127	0.991847826	0.991847826	1095	1104	1104	-2
+?h  P155  ?b  ?b  P156  ?h  ?n  P156  ?h  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.002789127	0.991847826	0.991847826	1095	1104	1104	-2
+?h  P3373  ?b  ?b  P3373  ?h  ?h  P3373  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.002687241	0.684620376	0.684620376	1055	1541	1541	-2
+?b  P3373  ?h  ?n  P3373  ?h  ?h  P3373  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.002687241	0.686848958	0.686848958	1055	1536	1536	-2
+?h  P22  ?b  ?h  P22  ?n  ?b  P40  ?h  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001783003	1	1	700	700	700	-2
+?h  P22  ?n  ?b  P40  ?h  ?n  P40  ?h  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001783003	0.951086957	0.951086957	700	736	736	-2
+?h  P22  ?b  ?b  P40  ?h  ?n  P40  ?h  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001783003	0.951086957	0.951086957	700	736	736	-2
+?b  P22  ?h  ?h  P40  ?b  ?h  P40  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001989322	0.777114428	0.777114428	781	1005	1005	-2
+?b  P22  ?h  ?n  P22  ?h  ?h  P40  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001989322	0.776341948	0.776341948	781	1006	1006	-2
+?h  P26  ?b  ?b  P26  ?h  ?h  P26  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001933285	0.96319797	0.96319797	759	788	788	-2
+?b  P26  ?h  ?n  P26  ?h  ?h  P26  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001933285	0.965648855	0.965648855	759	786	786	-2
+?h  P26  ?b  ?b  P26  ?h  ?n  P26  ?h  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001933285	0.965648855	0.965648855	759	786	786	-2
+?h  P131  ?n  ?n  P150  ?b  ?n  P150  ?h  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.002590449	0.061442726	0.061442726	1017	16552	16552	-2
+?h  P131  ?n  ?s  P131  ?n  ?s  P47  ?b  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.001115651	0.02231506	0.02231506	438	19628	19628	-2
+?n  P47  ?b  ?n  P47  ?h  ?h  P47  ?n  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.009167185	0.579735825	0.579735825	3599	6208	6208	-2
+?t  P47  ?b  ?h  P47  ?n  ?n  P47  ?t  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.001016312	0.064479638	0.064479638	399	6188	6188	-2
+?s  P47  ?b  ?h  P47  ?n  ?s  P47  ?n  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.001021406	0.062422167	0.062422167	401	6424	6424	-2
+?h  P155  ?n  ?n  P156  ?b  ?n  P156  ?h  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.002791674	0.989169675	0.989169675	1096	1108	1108	-2
+?n  P155  ?b  ?n  P155  ?h  ?h  P156  ?n  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.002789127	0.991847826	0.991847826	1095	1104	1104	-2
+?n  P3373  ?b  ?n  P3373  ?h  ?h  P3373  ?n  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.002687241	0.684620376	0.684620376	1055	1541	1541	-2
+?n  P22  ?b  ?n  P22  ?h  ?h  P40  ?n  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.001783003	1	1	700	700	700	-2
+?h  P22  ?n  ?n  P40  ?b  ?n  P40  ?h  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.001989322	0.777114428	0.777114428	781	1005	1005	-2
+?n  P26  ?b  ?n  P26  ?h  ?h  P26  ?n  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.001933285	0.96319797	0.96319797	759	788	788	-2
+?m  P47  ?b  ?s  P47  ?h  ?s  P47  ?m  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.00100867	0.063594026	0.063594026	396	6227	6227	-2
+?s  P47  ?b  ?m  P47  ?h  ?s  P47  ?m  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.00100867	0.063594026	0.063594026	396	6227	6227	-2
+?a  Producer  ?h  ?a  Recorded by  ?h  ?m  Recorded by  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.002208377	0.055075594	0.055075594	867	15742	15742	-2
+?m  Producer  ?h  ?a  Recorded by  ?h  ?m  Recorded by  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.002208377	0.054984779	0.054984779	867	15768	15768	-2
+?a  Producer  ?h  ?m  Producer  ?h  ?a  Recorded by  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.002208377	0.178175092	0.178175092	867	4866	4866	-2
+?a  Place  ?m  ?a  Time zone(s)  ?h  ?m  Time zone(s)  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.004503357	1	1	1768	1768	1768	-2
+?m  Place  ?a  ?a  Time zone(s)  ?h  ?m  Time zone(s)  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.004503357	1	1	1768	1768	1768	-2
+?a  Children  ?h  ?t  Children  ?h  ?m  Spouse (or domestic partner)  ?t  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.005435613	0.401883239	0.401883239	2134	5310	5310	-2
+?a  Children  ?h  ?s  Children  ?h  ?s  Spouse (or domestic partner)  ?m  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.005435613	0.401883239	0.401883239	2134	5310	5310	-2
+?h  Children  ?n  ?s  Children  ?n  ?a  Spouse (or domestic partner)  ?h  ?s  equalTo  ?b   => ?a  equalTo  ?b	0.005435613	0.401731928	0.401731928	2134	5312	5312	-2
+?m  Previous episode  ?t  ?a  Series  ?h  ?t  Series  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.001176782	0.017745343	0.017745343	462	26035	26035	-2
+?s  Previous episode  ?m  ?a  Series  ?h  ?s  Series  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.001179329	0.017847506	0.017847506	463	25942	25942	-2
+?a  Award Won  ?h  ?s  Award Won  ?n  ?h  Category of  ?n  ?s  equalTo  ?b   => ?a  equalTo  ?b	0.001668382	0.02458801	0.02458801	655	26639	26639	-2
+?a  Award Won  ?h  ?m  Award Won  ?s  ?s  Category of  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.001668382	0.02458801	0.02458801	655	26639	26639	-2
+?v  Place  ?a  ?a  Place  ?h  ?a  Place  ?v  ?h  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?a  Place  ?h  ?a  Place  ?v  ?h  equalTo  ?b  ?v  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	0.98094449	0.98094449	4736	4828	4828	-2
+?a  Place  ?h  ?v  Place  ?h  ?a  Place  ?v  ?h  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?a  Place  ?h  ?a  Place  ?v  ?h  Place  ?v  ?h  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?u  Place  ?a  ?a  Place  ?h  ?h  equalTo  ?b  ?u  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?a  Place  ?h  ?u  Place  ?h  ?h  equalTo  ?b  ?u  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?a  Place  ?h  ?h  Place  ?u  ?h  equalTo  ?b  ?u  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?u  Place  ?a  ?a  Place  ?h  ?u  Place  ?h  ?h  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?a  Place  ?h  ?u  Place  ?h  ?h  Place  ?u  ?h  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?a  Place  ?h  ?h  Place  ?n  ?s  Place  ?n  ?s  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?h  Place  ?a  ?a  Place  ?h  ?m  Place  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?a  Place  ?h  ?m  Place  ?h  ?h  Place  ?m  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?m  Place  ?a  ?a  Place  ?h  ?m  Place  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?a  Place  ?h  ?m  Place  ?h  ?m  Place  ?t  ?t  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	0.98094449	0.98094449	4736	4828	4828	-2
+?a  Previous episode  ?h  ?h  Series  ?n  ?s  Series  ?n  ?s  equalTo  ?b   => ?a  equalTo  ?b	0.001176782	0.017844038	0.017844038	462	25891	25891	-2
+?a  Producer  ?h  ?m  Producer  ?h  ?m  Recorded by  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.002208377	0.178065311	0.178065311	867	4869	4869	-2
+?a  Leader of  ?h  ?a  Leader of  ?v  ?h  Leader of  ?v  ?h  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.999526066	0.999526066	2109	2110	2110	-2
+?u  Leader of  ?a  ?a  Leader of  ?h  ?h  equalTo  ?b  ?u  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	1	1	2109	2109	2109	-2
+?a  Leader of  ?h  ?u  Leader of  ?h  ?h  equalTo  ?b  ?u  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.999526066	0.999526066	2109	2110	2110	-2
+?a  Leader of  ?h  ?h  Leader of  ?u  ?h  equalTo  ?b  ?u  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.999526066	0.999526066	2109	2110	2110	-2
+?a  Leader of  ?h  ?u  Leader of  ?h  ?h  Leader of  ?u  ?h  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.999526066	0.999526066	2109	2110	2110	-2
+?h  Leader of  ?a  ?a  Leader of  ?h  ?h  Leader of  ?n  ?n  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.943202147	0.943202147	2109	2236	2236	-2
+?n  Leader of  ?a  ?a  Leader of  ?h  ?h  Leader of  ?n  ?n  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	1	1	2109	2109	2109	-2
+?a  Leader of  ?h  ?n  Leader of  ?h  ?h  Leader of  ?n  ?n  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.999526066	0.999526066	2109	2110	2110	-2
+?a  Leader of  ?h  ?h  Leader of  ?n  ?s  Leader of  ?n  ?s  equalTo  ?b   => ?a  equalTo  ?b	0.005374482	0.936944938	0.936944938	2110	2252	2252	-2
+?h  Leader of  ?a  ?a  Leader of  ?h  ?m  Leader of  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.999526066	0.999526066	2109	2110	2110	-2
+?m  Leader of  ?a  ?a  Leader of  ?h  ?m  Leader of  ?h  ?m  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.999526066	0.999526066	2109	2110	2110	-2
+?a  Leader of  ?h  ?m  Leader of  ?h  ?m  Leader of  ?t  ?t  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.539110429	0.539110429	2109	3912	3912	-2
+?a  Leader of  ?h  ?m  Leader of  ?h  ?s  Leader of  ?m  ?s  equalTo  ?b   => ?a  equalTo  ?b	0.005374482	0.937361173	0.937361173	2110	2251	2251	-2
+?g  Place  ?a  ?v  Place  ?a  ?g  Place  ?v  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?g  Place  ?a  ?g  Place  ?v  ?g  equalTo  ?b  ?v  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?g  Place  ?a  ?v  Place  ?g  ?g  Place  ?v  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?g  Place  ?a  ?u  Place  ?a  ?g  equalTo  ?b  ?u  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	0.98094449	0.98094449	4736	4828	4828	-2
+?g  Place  ?a  ?u  Place  ?a  ?u  Place  ?g  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?g  Place  ?a  ?u  Place  ?a  ?a  Place  ?u  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	1	1	4736	4736	4736	-2
+?g  Leader of  ?a  ?u  Leader of  ?a  ?a  Leader of  ?u  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.999526066	0.999526066	2109	2110	2110	-2
+?g  Children  ?n  ?s  Children  ?n  ?s  Spouse (or domestic partner)  ?a  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.005435613	0.401731928	0.401731928	2134	5312	5312	-2
+?s  Previous episode  ?a  ?g  Series  ?n  ?s  Series  ?n  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.001179329	0.017873687	0.017873687	463	25904	25904	-2
+?n  Leader of  ?a  ?a  Leader of  ?g  ?g  Leader of  ?n  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	1	1	2109	2109	2109	-2
+?n  Leader of  ?a  ?n  Leader of  ?g  ?g  Leader of  ?n  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.943624161	0.943624161	2109	2235	2235	-2
+?m  Producer  ?a  ?m  Recorded by  ?a  ?m  Recorded by  ?g  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.001087632	0.942604857	0.942604857	427	453	453	-2
+?m  Producer  ?g  ?m  Recorded by  ?a  ?m  Recorded by  ?g  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.001087632	0.942604857	0.942604857	427	453	453	-2
+?m  Producer  ?a  ?m  Producer  ?g  ?m  Recorded by  ?a  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.001087632	0.904661017	0.904661017	427	472	472	-2
+?m  Children  ?a  ?t  Children  ?g  ?m  Spouse (or domestic partner)  ?t  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.00325016	0.569642857	0.569642857	1276	2240	2240	-2
+?m  Children  ?a  ?s  Children  ?g  ?s  Spouse (or domestic partner)  ?m  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.00325016	0.569642857	0.569642857	1276	2240	2240	-2
+?m  Leader of  ?a  ?s  Leader of  ?g  ?s  Leader of  ?m  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.005621555	0.89642567	0.89642567	2207	2462	2462	-2
+?m  Producer  ?a  ?m  Producer  ?g  ?m  Recorded by  ?g  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.001087632	0.904661017	0.904661017	427	472	472	-2
+?s  Leader of  ?a  ?m  Leader of  ?g  ?s  Leader of  ?m  ?g  equalTo  ?b   => ?a  equalTo  ?b	0.005621555	0.89642567	0.89642567	2207	2462	2462	-2
+?g  Place  ?a  ?g  Place  ?n  ?s  Place  ?n  ?s  equalTo  ?b   => ?a  equalTo  ?b	0.012063292	0.98094449	0.98094449	4736	4828	4828	-2
+?g  Leader of  ?a  ?g  Leader of  ?n  ?s  Leader of  ?n  ?s  equalTo  ?b   => ?a  equalTo  ?b	0.005371935	0.539386189	0.539386189	2109	3910	3910	-2
+Mining done in 3 h, 47 min
+Total time 3 h, 47 min
+119 rules mined.

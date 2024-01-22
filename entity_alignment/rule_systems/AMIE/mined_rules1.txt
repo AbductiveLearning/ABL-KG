@@ -1,0 +1,57 @@
+Assuming 9 as type relation
+Loading files... 
+  Starting sel_tri1.txt
+  Finished sel_tri1.txt, still running: 0
+Loaded 177271 facts in 1.57 s using -762 MB
+Using HeadCoverage as pruning metric with minimum threshold 0.001
+Using recursivity limit 3
+Default mining assistant that defines support by counting support on both head variables
+No minimum threshold on standard confidence
+Filtering on PCA confidence with minimum threshold 1.0E-4
+Constants in the arguments of relations are disabled
+Lossless (query refinement) heuristics enabled
+MRT calls: 0
+Starting the mining phase... Using 1 threads
+Rule	Head Coverage	Std Confidence	PCA Confidence	Positive Examples	Body size	PCA Body size	Functional variable
+?b  P27  ?h  ?n  equalTo  ?h  ?a  http://schema.org/nationality  ?n   => ?a  equalTo  ?b	0.011573333	0.000660061	0.000660061	1736	2630059	2630059	-1
+?b  P106  ?h  ?n  equalTo  ?h  ?a  http://schema.org/hasOccupation  ?n   => ?a  equalTo  ?b	0.007893333	0.000826187	0.000826187	1184	1433089	1433089	-1
+?b  P19  ?h  ?n  equalTo  ?h  ?a  http://schema.org/birthPlace  ?n   => ?a  equalTo  ?b	0.00504	0.040423484	0.040423484	756	18702	18702	-1
+?b  P54  ?h  ?n  equalTo  ?h  ?a  http://schema.org/memberOf  ?n   => ?a  equalTo  ?b	0.00414	0.110972123	0.110972123	621	5596	5596	-1
+?b  P131  ?h  ?n  equalTo  ?h  ?a  http://schema.org/containedInPlace  ?n   => ?a  equalTo  ?b	0.004006667	0.033643081	0.033643081	601	17864	17864	-1
+?b  P131  ?h  ?n  equalTo  ?h  ?a  http://schema.org/location  ?n   => ?a  equalTo  ?b	0.00112	0.030462375	0.030462375	168	5515	5515	-1
+?b  P641  ?h  ?n  equalTo  ?h  ?a  http://schema.org/sport  ?n   => ?a  equalTo  ?b	0.00122	0.003353122	0.003353122	183	54576	54576	-1
+?b  P69  ?h  ?n  equalTo  ?h  ?a  http://schema.org/alumniOf  ?n   => ?a  equalTo  ?b	0.0034	0.010303655	0.010303655	510	49497	49497	-1
+?b  P735  ?h  ?n  equalTo  ?h  ?a  http://schema.org/givenName  ?n   => ?a  equalTo  ?b	0.002866667	0.025942685	0.025942685	430	16575	16575	-1
+?b  P161  ?h  ?n  equalTo  ?h  ?a  http://schema.org/actor  ?n   => ?a  equalTo  ?b	0.00262	0.493718593	0.493718593	393	796	796	-1
+?b  P171  ?h  ?n  equalTo  ?h  ?a  http://bioschemas.org/parentTaxon  ?n   => ?a  equalTo  ?b	0.002013333	0.328618063	0.328618063	302	919	919	-1
+?b  P495  ?h  ?n  equalTo  ?h  ?a  http://schema.org/countryOfOrigin  ?n   => ?a  equalTo  ?b	0.00148	0.003127774	0.003127774	222	70977	70977	-1
+?b  P20  ?h  ?n  equalTo  ?h  ?a  http://schema.org/deathPlace  ?n   => ?a  equalTo  ?b	0.001326667	0.112112676	0.112112676	199	1775	1775	-1
+?m  equalTo  ?b  ?a  http://schema.org/containedInPlace  ?h  ?m  http://schema.org/location  ?h   => ?a  equalTo  ?b	0.001393333	0.045296922	0.045296922	209	4614	4614	-1
+?m  equalTo  ?b  ?m  http://schema.org/containedInPlace  ?h  ?a  http://schema.org/location  ?h   => ?a  equalTo  ?b	0.001393333	0.045296922	0.045296922	209	4614	4614	-1
+?g  P161  ?b  ?m  equalTo  ?g  ?m  http://schema.org/actor  ?a   => ?a  equalTo  ?b	0.00222	0.686597938	0.689440994	333	485	483	-1
+?g  P131  ?b  ?m  equalTo  ?g  ?m  http://schema.org/containedInPlace  ?a   => ?a  equalTo  ?b	0.002073333	0.981072555	0.981072555	311	317	317	-1
+?g  P19  ?b  ?m  equalTo  ?g  ?m  http://schema.org/birthPlace  ?a   => ?a  equalTo  ?b	0.001986667	1	1	298	298	298	-1
+?g  P54  ?b  ?m  equalTo  ?g  ?m  http://schema.org/memberOf  ?a   => ?a  equalTo  ?b	0.001306667	0.535519126	0.655518395	196	366	299	-1
+?g  P171  ?b  ?m  equalTo  ?g  ?m  http://bioschemas.org/parentTaxon  ?a   => ?a  equalTo  ?b	0.00128	1	1	192	192	192	-1
+?b  P17  ?h  ?h  P17  ?n  ?t  P17  ?n  ?a  equalTo  ?t   => ?a  equalTo  ?b	0.01344	0.000634352	0.000634352	2016	3178044	3178044	-1
+?b  P17  ?h  ?t  P17  ?h  ?n  P47  ?t  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001066667	0.000555777	0.000555777	160	287885	287885	-1
+?b  P17  ?h  ?s  P17  ?h  ?s  P47  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.001066667	0.000552364	0.000552364	160	289664	289664	-1
+?b  P17  ?h  ?m  P17  ?h  ?s  P17  ?m  ?a  equalTo  ?s   => ?a  equalTo  ?b	0.01344	0.000634352	0.000634352	2016	3178044	3178044	-1
+?h  P17  ?n  ?b  P27  ?h  ?t  P27  ?n  ?a  equalTo  ?t   => ?a  equalTo  ?b	0.011606667	0.000743749	0.000743749	1741	2340845	2340845	-1
+?h  P17  ?n  ?b  P27  ?h  ?t  equalTo  ?n  ?a  http://schema.org/nationality  ?t   => ?a  equalTo  ?b	0.011486667	0.000655154	0.000655154	1723	2629916	2629916	-1
+?s  P17  ?h  ?b  P27  ?h  ?n  P27  ?s  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.011606667	0.000743749	0.000743749	1741	2340845	2340845	-1
+?t  P17  ?h  ?b  P27  ?h  ?n  equalTo  ?t  ?a  http://schema.org/nationality  ?n   => ?a  equalTo  ?b	0.011486667	0.000655154	0.000655154	1723	2629916	2629916	-1
+?b  P47  ?h  ?n  P47  ?h  ?h  P47  ?n  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.00218	0.840616967	0.840616967	327	389	389	-1
+?h  P17  ?n  ?t  P17  ?n  ?b  P47  ?h  ?a  equalTo  ?t   => ?a  equalTo  ?b	0.001066667	0.000555777	0.000555777	160	287885	287885	-1
+?h  P17  ?n  ?b  P495  ?h  ?t  P495  ?n  ?a  equalTo  ?t   => ?a  equalTo  ?b	0.002026667	0.003538257	0.003538257	304	85918	85918	-1
+?h  P17  ?n  ?b  P495  ?h  ?t  equalTo  ?n  ?a  http://schema.org/countryOfOrigin  ?t   => ?a  equalTo  ?b	0.001473333	0.003113729	0.003113729	221	70976	70976	-1
+?s  P17  ?h  ?b  P495  ?h  ?n  P495  ?s  ?a  equalTo  ?n   => ?a  equalTo  ?b	0.002026667	0.003538257	0.003538257	304	85918	85918	-1
+?s  P17  ?h  ?b  P495  ?h  ?n  equalTo  ?s  ?a  http://schema.org/countryOfOrigin  ?n   => ?a  equalTo  ?b	0.001473333	0.003113729	0.003113729	221	70976	70976	-1
+?h  P17  ?n  ?s  P17  ?n  ?s  P47  ?b  ?a  equalTo  ?h   => ?a  equalTo  ?b	0.001066667	0.000552364	0.000552364	160	289664	289664	-1
+?m  equalTo  ?b  ?a  http://schema.org/containedInPlace  ?h  ?m  http://schema.org/containedInPlace  ?h  ?a  http://schema.org/location  ?h   => ?a  equalTo  ?b	0.001393333	0.07123381	0.07123381	209	2934	2934	-1
+?m  equalTo  ?b  ?a  http://schema.org/containedInPlace  ?h  ?m  http://schema.org/containedInPlace  ?h  ?m  http://schema.org/location  ?h   => ?a  equalTo  ?b	0.001393333	0.07123381	0.07123381	209	2934	2934	-1
+?m  equalTo  ?b  ?a  http://schema.org/containedInPlace  ?h  ?a  http://schema.org/location  ?h  ?m  http://schema.org/location  ?h   => ?a  equalTo  ?b	0.001393333	0.162267081	0.162267081	209	1288	1288	-1
+?m  equalTo  ?b  ?m  http://schema.org/containedInPlace  ?h  ?a  http://schema.org/location  ?h  ?m  http://schema.org/location  ?h   => ?a  equalTo  ?b	0.001393333	0.162267081	0.162267081	209	1288	1288	-1
+Mining done in 15 min, 36 s
+Total time 15 min, 38 s
+39 rules mined.

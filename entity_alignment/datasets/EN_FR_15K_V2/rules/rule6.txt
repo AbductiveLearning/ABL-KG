@@ -1,0 +1,6 @@
+['?b', 'http://dbpedia.org/ontology/follows', '?h', '?h', 'http://dbpedia.org/ontology/followedBy', '?n', '?a', 'equalTo', '?n']	=>	['?a', 'equalTo', '?b']	pca:	0.992874109
+['?h', 'http://dbpedia.org/ontology/follows', '?n', '?b', 'http://dbpedia.org/ontology/followedBy', '?h', '?a', 'equalTo', '?n']	=>	['?a', 'equalTo', '?b']	pca:	1.0
+['?h', 'http://dbpedia.org/ontology/follows', '?n', '?n', 'http://dbpedia.org/ontology/followedBy', '?b', '?a', 'equalTo', '?h']	=>	['?a', 'equalTo', '?b']	pca:	0.992874109
+['?n', 'http://dbpedia.org/ontology/follows', '?b', '?h', 'http://dbpedia.org/ontology/followedBy', '?n', '?a', 'equalTo', '?h']	=>	['?a', 'equalTo', '?b']	pca:	1.0
+['?g', 'http://dbpedia.org/ontology/located', '?b', '?m', 'equalTo', '?g', '?m', 'http://dbpedia.org/ontology/location', '?a']	=>	['?a', 'equalTo', '?b']	pca:	0.862277868
+['?b', 'http://dbpedia.org/ontology/follows', '?h', '?n', 'http://dbpedia.org/ontology/follows', '?h', '?h', 'http://dbpedia.org/ontology/followedBy', '?n', '?a', 'equalTo', '?n']	=>	['?a', 'equalTo', '?b']	pca:	0.995238095

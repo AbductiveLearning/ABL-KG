@@ -1,0 +1,4 @@
+['?m', 'equalTo', '?h', '?b', 'http://dbpedia.org/ontology/previousWork', '?h', '?m', 'http://dbpedia.org/ontology/subsequentWork', '?a']	=>	['?a', 'equalTo', '?b']	pca:	0.829766537
+['?h', 'equalTo', '?n', '?n', 'http://dbpedia.org/ontology/previousWork', '?b', '?a', 'http://dbpedia.org/ontology/subsequentWork', '?h']	=>	['?a', 'equalTo', '?b']	pca:	0.568575233
+['?n', 'equalTo', '?h', '?b', 'http://dbpedia.org/ontology/previousWork', '?h', '?a', 'http://dbpedia.org/ontology/previousWork', '?n', '?n', 'http://dbpedia.org/ontology/subsequentWork', '?a']	=>	['?a', 'equalTo', '?b']	pca:	0.877040261
+['?h', 'equalTo', '?n', '?h', 'http://dbpedia.org/ontology/previousWork', '?a', '?n', 'http://dbpedia.org/ontology/previousWork', '?b', '?a', 'http://dbpedia.org/ontology/subsequentWork', '?h']	=>	['?a', 'equalTo', '?b']	pca:	0.58643326

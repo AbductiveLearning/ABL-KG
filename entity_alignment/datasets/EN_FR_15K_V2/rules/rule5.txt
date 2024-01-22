@@ -1,0 +1,6 @@
+['A', 'http://dbpedia.org/ontology/spouse', 'X', 'A', 'equalTo', 'B', 'Y', 'http://dbpedia.org/ontology/spouse', 'B']	=>	['X', 'equalTo', 'Y']	pca:	0.8995
+['A', 'http://dbpedia.org/ontology/spouse', 'X', 'A', 'equalTo', 'B', 'B', 'http://dbpedia.org/ontology/spouse', 'Y']	=>	['X', 'equalTo', 'Y']	pca:	0.901
+['X', 'http://dbpedia.org/ontology/spouse', 'A', 'A', 'equalTo', 'B', 'Y', 'http://dbpedia.org/ontology/spouse', 'B']	=>	['X', 'equalTo', 'Y']	pca:	0.9035
+['X', 'http://dbpedia.org/ontology/spouse', 'A', 'A', 'equalTo', 'B', 'B', 'http://dbpedia.org/ontology/spouse', 'Y']	=>	['X', 'equalTo', 'Y']	pca:	0.895
+['A', 'http://dbpedia.org/ontology/parent', 'X', 'A', 'equalTo', 'B', 'B', 'http://dbpedia.org/ontology/father', 'Y']	=>	['X', 'equalTo', 'Y']	pca:	0.838
+['X', 'http://dbpedia.org/ontology/parent', 'A', 'A', 'equalTo', 'B', 'Y', 'http://dbpedia.org/ontology/father', 'B']	=>	['X', 'equalTo', 'Y']	pca:	0.6425
