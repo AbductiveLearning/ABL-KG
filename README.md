@@ -1,3 +1,5 @@
+🌟 **New!** [ABLkit](https://github.com/AbductiveLearning/ABLkit) released: A toolkit for Abductive Learning with high flexibility, user-friendly interface, and optimized performance. Welcome to try it out!🚀
+
 # Enabling Abductive Learning to Exploit Knowledge Graph
 
 This is the sample code of the experiments in [Enabling Abductive Learning to Exploit Knowledge Graph](https://www.ijcai.org/proceedings/2023/0427.pdf) in IJCAI 2023.
